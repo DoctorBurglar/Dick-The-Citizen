@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.NavBar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 50vw;
+  min-width: 400px;
+  font-family: "Dosis", sans-serif;
+  font-size: 0.8rem;
+}
+
+.NavLink {
+  color: #cf8e38;
+  letter-spacing: 3px;
+}
+
+.NavLink:hover {
+  cursor: pointer;
+  color: #b87d30;
+}
+
+.Logo {
+  margin: 15px;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 3px;
+}
+
+.Logo:hover,
+.Logo:active {
+  color: #111111;
+}

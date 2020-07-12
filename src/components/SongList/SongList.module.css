@@ -1,0 +1,24 @@
+.SongList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 330vh;
+}
+
+.SongListContainer {
+}
+
+h4 {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  margin-bottom: -15px;
+}
+
+.Line {
+  width: 80%;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
