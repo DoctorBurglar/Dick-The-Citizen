@@ -3,7 +3,7 @@
 }
 
 .ContactImage {
-  min-width: 100px;
+  min-width: 300px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -11,6 +11,7 @@
   z-index: -1;
   object-fit: cover;
   object-position: 0px 0px;
+  overflow: hidden;
 }
 /* @media (min-width: 320px) {
   .Title {

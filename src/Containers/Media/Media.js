@@ -9,7 +9,10 @@ class Media extends Component {
   render() {
     return (
       <>
-        <Picture src={DTC3} />
+        <Picture
+          src={DTC3}
+          alt="Dick the Citizen smiles at camera while lead singer Steve Pederson pulls down sunglasses to try and look cool"
+        />
         <div className={classes.Media}>
           <Title title="Media" />
           <div className={classes.Content}>Media Content</div>

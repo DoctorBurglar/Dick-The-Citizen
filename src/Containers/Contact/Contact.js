@@ -9,7 +9,11 @@ class Contact extends Component {
   render() {
     return (
       <>
-        <Picture src={DTC1} title="Contact" />
+        <Picture
+          src={DTC1}
+          title="Contact"
+          alt="Dick the Citizen looks dapper in suits and smiles while lead singer Steve Pederson straightens his tie"
+        />
         <div className={classes.Contact}>
           <Title title="Contact" />
           <div className={classes.Booking}>

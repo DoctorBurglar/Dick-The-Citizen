@@ -7,3 +7,8 @@
 .FooterText {
   color: white;
 }
+
+.Logo {
+  width: 40px;
+  margin: 50px 10px 0 10px;
+}

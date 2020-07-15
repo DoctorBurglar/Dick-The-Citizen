@@ -1,23 +1,30 @@
 .Event {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   border: 1px solid black;
   font-size: 1rem;
   align-items: center;
+  width: 80%;
+  margin: auto;
+  text-align: left;
 }
 
 .Venue {
   width: 25%;
+  padding: 0 8px;
 }
 
 .City {
-  width: 25%;
+  width: 15%;
+  padding: 0 8px;
 }
 
 .DateTime {
-  width: 25%;
+  width: 30%;
+  padding: 0 8px;
 }
 
 .Description {
-  width: 25%;
+  width: 30%;
+  padding: 0 8px;
 }

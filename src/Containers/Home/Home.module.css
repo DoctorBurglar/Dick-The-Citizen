@@ -5,7 +5,7 @@
 .HomePicture {
   min-width: 300px;
   width: 100%;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
@@ -18,11 +18,11 @@
   position: relative;
   font-size: 5rem;
   width: 100%;
-  padding-top: -200px;
   font-family: "Oswald", sans-serif;
+  color: #ffa52f;
   letter-spacing: 10px;
   font-weight: 100;
-  margin-top: -150px;
+  text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 @media (min-width: 320px) {
