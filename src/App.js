@@ -1,11 +1,11 @@
 import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route, NavLink, Link } from "react-router-dom";
 import classes from "./App.module.css";
 import Home from "./Containers/Home/Home";
 import Contact from "./Containers/Contact/Contact";
 import Media from "./Containers/Media/Media";
 import About from "./Containers/About/About";
-import UpcomingShows from "./Containers/UpcomingShows/UpcomingShows";
+import Shows from "./Containers/Shows/Shows";
 
 function App() {
   return (
@@ -20,50 +20,30 @@ function App() {
           <nav>
             <ul className={classes.NavBar}>
               <li>
-                <Link
-                  style={{ textDecoration: "none" }}
-                  to="/"
-                  className={classes.NavLink}
-                >
+                <NavLink to="/" exact activeClassName={classes.active}>
                   HOME
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
-                  style={{ textDecoration: "none" }}
-                  to="/UpcomingShows"
-                  className={classes.NavLink}
-                >
-                  UPCOMING SHOWS
-                </Link>
+                <NavLink to="/Shows" activeClassName={classes.active}>
+                  SHOWS
+                </NavLink>
               </li>
               <li>
                 {" "}
-                <Link
-                  style={{ textDecoration: "none" }}
-                  to="/Media"
-                  className={classes.NavLink}
-                >
+                <NavLink to="/Media" activeClassName={classes.active}>
                   MEDIA
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
-                  style={{ textDecoration: "none" }}
-                  to="/About"
-                  className={classes.NavLink}
-                >
+                <NavLink to="/About" activeClassName={classes.active}>
                   ABOUT
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
-                  style={{ textDecoration: "none" }}
-                  to="Contact"
-                  className={classes.NavLink}
-                >
+                <NavLink to="Contact" activeClassName={classes.active}>
                   CONTACT
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </nav>
@@ -72,7 +52,7 @@ function App() {
         <Route exact path="/About" component={About} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/Media" component={Media} />
-        <Route exact path="/UpcomingShows" component={UpcomingShows} />
+        <Route exact path="/Shows" component={Shows} />
       </div>
     </BrowserRouter>
   );

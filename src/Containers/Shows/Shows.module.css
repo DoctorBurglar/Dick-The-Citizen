@@ -1,0 +1,16 @@
+.UpcomingShows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.TourDates {
+  z-index: 2;
+  width: 100%;
+  min-height: 200px;
+}
+
+.Content {
+  width: 100%;
+  background-color: white;
+}

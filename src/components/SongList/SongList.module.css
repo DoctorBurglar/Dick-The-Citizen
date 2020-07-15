@@ -3,10 +3,18 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 330vh;
+  /* height: 330vh; */
 }
 
 .SongListContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+
+.SongListTitle {
 }
 
 h4 {

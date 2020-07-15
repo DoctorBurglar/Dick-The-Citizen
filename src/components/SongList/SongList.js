@@ -4,7 +4,7 @@ import classes from "./SongList.module.css";
 const songList = () => {
   return (
     <div className={classes.SongListContainer}>
-      <h1>DTC Song List</h1>
+      <h1 className={classes.SongListTitle}>DTC Song List</h1>
       <hr className={classes.Line}></hr>
       <ul className={classes.SongList}>
         <li>

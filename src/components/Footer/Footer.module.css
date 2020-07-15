@@ -1,0 +1,9 @@
+.Footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+
+.FooterText {
+  color: white;
+}

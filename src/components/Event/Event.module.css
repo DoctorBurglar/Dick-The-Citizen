@@ -1,0 +1,23 @@
+.Event {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.Venue {
+  width: 25%;
+}
+
+.City {
+  width: 25%;
+}
+
+.DateTime {
+  width: 25%;
+}
+
+.Description {
+  width: 25%;
+}

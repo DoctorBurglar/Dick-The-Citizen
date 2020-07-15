@@ -1,26 +1,24 @@
 import React, { Component } from "react";
-import DTC from "../../assets/Dtc.jpg";
+import DTC1 from "../../assets/DickTheCitizen-1.jpg";
 import classes from "./Contact.module.css";
+import Picture from "../../components/Picture/Picture";
+import Footer from "../../components/Footer/Footer";
+import Title from "../../components/Title/Title";
 
 class Contact extends Component {
   render() {
     return (
       <>
-        <img
-          className={classes.ContactImage}
-          style={{
-            display: "block",
-            width: "100%",
-            position: "fixed",
-            top: "0",
-            left: "0",
-            zIndex: "-1",
-          }}
-          src={DTC}
-        />
-        <div>
-          FOR BOOKING AND PRESS INQUIRIES, PLEASE CONTACT
-          DICKTHECITIZEN@GMAIL.COM
+        <Picture src={DTC1} title="Contact" />
+        <div className={classes.Contact}>
+          <Title title="Contact" />
+          <div className={classes.Booking}>
+            <h3 className={classes.BookingMessage}>
+              FOR BOOKING AND PRESS INQUIRIES, PLEASE CONTACT:
+            </h3>
+            <h2>DICKTHECITIZEN@GMAIL.COM</h2>
+          </div>
+          <Footer />
         </div>
       </>
     );

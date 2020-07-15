@@ -1,0 +1,61 @@
+.Home {
+  /* display: inline-block; */
+}
+
+.HomePicture {
+  min-width: 300px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  object-position: 0px 0px;
+}
+
+.Title {
+  /* display: block; */
+  position: relative;
+  font-size: 5rem;
+  width: 100%;
+  padding-top: -200px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 10px;
+  font-weight: 100;
+  margin-top: -150px;
+}
+
+@media (min-width: 320px) {
+  .Title {
+    font-size: 1rem;
+    margin-top: -80px;
+  }
+}
+
+@media (min-width: 481px) {
+  .Title {
+    font-size: 3rem;
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 769px) {
+  .Title {
+    font-size: 4rem;
+    margin-top: -140px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .Title {
+    font-size: 5rem;
+    margin-top: -170px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .Title {
+    font-size: 6rem;
+    margin-top: -220px;
+  }
+}

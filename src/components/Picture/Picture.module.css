@@ -1,0 +1,40 @@
+.PictureTitle {
+  max-height: 400px;
+}
+
+.ContactImage {
+  min-width: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  object-position: 0px 0px;
+}
+/* @media (min-width: 320px) {
+  .Title {
+    font-size: 1rem;
+  }
+} */
+
+/* @media (min-width: 481px) {
+  .Title {
+    font-size: 3rem;
+  }
+} */
+
+/* @media (min-width: 769px) {
+  .Title {
+    font-size: 4rem;
+  }
+} */
+
+@media (max-width: 1515px) {
+}
+
+/* @media (min-width: 1201px) {
+  .Title {
+    font-size: 6rem;
+  }
+} */
